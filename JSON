@@ -1,0 +1,18 @@
+1.Comparing two json:
+
+var user={name:"person",age:5};
+var user1=age:5,name:"person"};
+fuction isEqual(user,user1){
+var userkeys=object.keys(user);
+var user1keys=object.keys(user1);
+if (userkeys.length!=obj1keys.length){
+return false;
+}
+for(var userkey of userkeys){
+if (user[userkey]!=user1[user]){
+return false;
+}
+}
+return true;
+}
+console.log(isEqual(user,user1));
